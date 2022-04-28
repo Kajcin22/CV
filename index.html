@@ -4,9 +4,287 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="index.js" type="module"></script>
+    <title>CV Kateřina Mašková</title>
   </head>
   <body>
-    <h1>Vizitka</h1>
+    <nav class="bg-blue-bell">
+      <ul id="nav" class="list-no-dots">
+        <li><a href="#info">info</a></li>
+        <li><a href="#zkusenosti">pracovní zkušenosti</a></li>
+        <li><a href="#kurzy">kurzy a certifikáty</a></li>
+        <li><a href="#vzdelani">vzdělání</a></li>
+        <li><a href="#dovednosti">jazykové a ostatní dovednosti</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="kontakt">
+        <img
+          class="circle-pic"
+          src="/img/profile-pic-M.JPG"
+          alt="profile picture"
+        />
+
+        <div class="kontakt-info">
+          <h1 id="info" class="center">Mgr. Kateřina Mašková</h1>
+
+          <h3>Kontakt</h3>
+          <p>email: masekkaterina@gmail.com</p>
+          <p>telefon: +420 605 052 195</p>
+        </div>
+      </div>
+    </section>
+    <!--PRACOVNÍ ZKUŠENOSTI-->
+    <section class="bg-columbia-blue">
+      <div class="container-S">
+        <h2 id="zkusenosti">Pracovní zkušenosti</h2>
+        <div>
+          <div class="item">
+            <h3>projektový specialista</h3>
+            <p>2021-2022</p>
+            <p>
+              Ředitelství pro mezinárodní policejní spolupráci, Policejní
+              prezidium ČR
+            </p>
+            <ul>
+              <li>
+                <strong>organizace a management mezinárodních projektů</strong>
+                spolufinancovaných EU a Norskými fondy, zajištění
+                administrativy, dohled nad financováním a rozpočtem projektu,
+                organizace a kontrola při plnění projektových aktivit
+              </li>
+              <li>
+                <strong
+                  >zajištění komunikační linie mezi zahraničními partnery a
+                  českou stranou</strong
+                >, účast a reprezentace projektového týmu na multilaterálních
+                mezinárodních projektových jednáních
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>office manager</h3>
+            <p>2019-2020</p>
+            <p>Proficio Marketing s.r.o.</p>
+            <ul>
+              <li>
+                <strong>organizace chodu kanceláře,</strong>
+                zajišťování společenských akcí v rámci firmy
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>hosteska</h3>
+            <p>2017-2019</p>
+            <p>různí zaměstnavatelé</p>
+            <ul>
+              <li>
+                účast na <strong>mezinárodních veletrzích, konferencích</strong>
+                , sportovních utkáních a galavečerech
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>externí tester aplikací</h3>
+            <p>2013</p>
+            <p>Fraus Media, s r.o.</p>
+            <ul>
+              <li>
+                <strong>testování mobilních aplikací</strong>
+                pro jazykovou výuku
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>průvodkyně</h3>
+            <p>2010-2014</p>
+            <p>státní hrad Karlštejn a státní zámek Nebílovy, NPÚ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--konec sekce  PRACOVNÍ ZKUŠENOSTI-->
+
+    <!--CERTIFIKÁTY-->
+    <section class="bg-uranian-blue">
+      <div class="container-S">
+        <h2 id="kurzy">Kurzy a certifikáty</h2>
+        <div>
+          <div class="item">
+            <h3>Digitální akademie: WEB</h3>
+            <p>2022 březen-červen</p>
+            <p>Czechitas</p>
+            <ul>
+              <li>rozsah kurzu: 300 hodin</li>
+              <li>
+                obsah kurzu:
+                <strong
+                  >HTML a CSS, JavaScript, základy Gitu, UX, automatizace webu,
+                  React</strong
+                >
+              </li>
+              <li>
+                v rámci kurzu účast na hackathonu, závěrečný projekt tvořený v
+                týmech, prezentace závěrečného projektu na galavečeru a získání
+                certifikátu
+              </li>
+              <li>
+                link:
+                <a
+                  href="https://www.czechitas.cz/kurzy/digitalni-akademie-web"
+                  target="_blank"
+                  >https://www.czechitas.cz/kurzy/digitalni-akademie-web</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>Bootstrap</h3>
+            <p>2022 duben</p>
+            <p>Czechitas</p>
+            <ul>
+              <li>rozsah kurzu: 7 hodin</li>
+              <li>
+                obsah kurzu:
+                <strong>responzivní web design, framework Bootstrap</strong>
+              </li>
+              <li>
+                link:
+                <a
+                  href="https://www.czechitas.cz/kurzy/bootstrap"
+                  target="_blank"
+                  >https://www.czechitas.cz/kurzy/bootstrap</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>JavaScript I.</h3>
+            <p>2021 září-prosinec</p>
+            <p>Czechitas</p>
+            <ul>
+              <li>rozsah kurzu: 40 hodin</li>
+              <li>
+                kurz programování v jazyce <strong>JavaScript</strong>, získání
+                certifikátu
+              </li>
+              <li>
+                link:
+                <a
+                  href="https://www.czechitas.cz/kurzy/javascript-1"
+                  target="_blank"
+                  >https://www.czechitas.cz/kurzy/javascript-1</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--konec sekce  CERTIFIKÁTY-->
+
+    <!-- VZDĚLÁNÍ-->
+    <section class="bg-columbia-blue">
+      <div class="container-S">
+        <h2 id="vzdelani">Vzdělání</h2>
+        <div class="item">
+          <p><strong>magisterské studium</strong>, obor Čínská studia</p>
+          <p>2017-2020</p>
+          <p>Masarykova Univerzita</p>
+        </div>
+        <div class="item">
+          <p><strong>jazykový pobyt</strong></p>
+          <p>2019</p>
+          <p>Chongqing University, Čína</p>
+        </div>
+        <div class="item">
+          <p><strong>bakalářské studium</strong>, obor Kulturní studia Číny</p>
+          <p>2013-2017</p>
+          <p>Masarykova Univerzita</p>
+        </div>
+        <div class="item">
+          <p><strong>jazykový pobyt</strong></p>
+          <p>2015-2016</p>
+          <p>Tianjin Normal University, Čína</p>
+        </div>
+        <div class="item">
+          <p>
+            <strong>organizace a management stáží</strong> pro příchozí
+            zahraniční studenty
+          </p>
+          <p>2013-2015</p>
+          <p>AIESEC Brno</p>
+        </div>
+        <div class="item">
+          <p><strong>zahraniční stáž</strong></p>
+          <p>2014</p>
+          <p>AIESEC Galati, Rumunsko</p>
+          <ul>
+            <li>
+              projekt Grow!, vedení lekcí (vzdělávání o soft skills) pro
+              středoškolské studenty
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <p>
+            <strong>středoškolské vzdělání</strong>
+          </p>
+          <p>2005-2013</p>
+          <p>Gymnázium a SOŠ Plasy</p>
+        </div>
+        <div class="item">
+          <p>
+            <strong>výměnný pobyt</strong>
+          </p>
+          <p>2011-2012</p>
+          <p>Sandy Creek High School, USA</p>
+        </div>
+      </div>
+    </section>
+    <!--konec sekce  VZDĚLÁNÍ-->
+
+    <!--DOVEDNOSTI-->
+    <section id="dovednosti" class="bg-uranian-blue">
+      <div class="container-S">
+        <h2>Jazykové dovednosti</h2>
+        <table class="table">
+          <tr>
+            <th>čeština</th>
+            <th>rodilý mluvčí</th>
+          </tr>
+          <tr>
+            <th>angličtina</th>
+            <th>výborná znalost</th>
+          </tr>
+          <tr>
+            <th>čínština</th>
+            <th>pokročilá znalost</th>
+          </tr>
+          <tr>
+            <th>němčina</th>
+            <th>základní znalost</th>
+          </tr>
+          <tr>
+            <th>francouzština</th>
+            <th>základní znalost</th>
+          </tr>
+        </table>
+        <h2>Ostatní</h2>
+        <p>řidičský průkaz sk. B</p>
+      </div>
+    </section>
+    <!--konec sekce  DOVEDNOSTI-->
   </body>
 </html>
