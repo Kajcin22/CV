@@ -181,7 +181,9 @@ td {
   height: 25%;
   max-width: 50%;
 }
-@media screen and (min-width: 768px) {
+
+/*--------------- breakpoints --------------------------*/
+@media (min-width: 768px) {
   /*------skrytí hamburger menu -------*/
   #nav-btn {
     display: none;
@@ -212,7 +214,7 @@ td {
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media (min-width: 1250px) {
   .item {
     width: 33%;
     margin-bottom: 2rem;
