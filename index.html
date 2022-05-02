@@ -15,6 +15,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <link />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <script src="index.js" type="module"></script>
     <title>CV Kateřina Mašková</title>
   </head>
@@ -42,8 +51,11 @@
 
         <div class="kontakt-info">
           <h1 id="info" class="center">Mgr. Kateřina Mašková</h1>
+          <div class="heading">
+            <h3 id="contact-heading">Kontakt</h3>
+            <button class="phone"></button>
+          </div>
 
-          <h3>Kontakt</h3>
           <p>email: masekkaterina@gmail.com</p>
           <p>telefon: +420 605 052 195</p>
         </div>
@@ -52,7 +64,11 @@
     <!--PRACOVNÍ ZKUŠENOSTI-->
     <section class="bg-columbia-blue">
       <div class="container-S">
-        <h2 id="zkusenosti">Pracovní zkušenosti</h2>
+        <div class="heading">
+          <h2 id="zkusenosti">Pracovní zkušenosti</h2>
+          <button class="icon-btn--work"></button>
+        </div>
+
         <div class="row">
           <div class="item">
             <h3>projektový specialista</h3>
@@ -123,7 +139,11 @@
     <!--CERTIFIKÁTY-->
     <section class="bg-uranian-blue">
       <div class="container-S">
-        <h2 id="kurzy">Kurzy a certifikáty</h2>
+        <div class="heading">
+          <h2 id="kurzy">Kurzy a certifikáty</h2>
+          <button class="icon-btn--certificate"></button>
+        </div>
+
         <div class="row">
           <div class="item">
             <h3>Digitální akademie: WEB</h3>
@@ -201,7 +221,11 @@
     <!-- VZDĚLÁNÍ-->
     <section class="bg-columbia-blue">
       <div class="container-S">
-        <h2 id="vzdelani">Vzdělání</h2>
+        <div class="heading">
+          <h2 id="vzdelani">Vzdělání</h2>
+          <button class="icon-btn--education"></button>
+        </div>
+
         <div class="row">
           <div class="item">
             <p><strong>magisterské studium</strong>, obor Čínská studia</p>
@@ -266,31 +290,57 @@
     <!--DOVEDNOSTI-->
     <section id="dovednosti" class="bg-uranian-blue">
       <div class="container-S">
-        <h2>Jazykové dovednosti</h2>
-        <table class="table">
-          <tr>
-            <th>čeština</th>
-            <th>rodilý mluvčí</th>
-          </tr>
-          <tr>
-            <th>angličtina</th>
-            <th>výborná znalost</th>
-          </tr>
-          <tr>
-            <th>čínština</th>
-            <th>pokročilá znalost</th>
-          </tr>
-          <tr>
-            <th>němčina</th>
-            <th>základní znalost</th>
-          </tr>
-          <tr>
-            <th>francouzština</th>
-            <th>základní znalost</th>
-          </tr>
-        </table>
-        <h2>Ostatní</h2>
-        <p>řidičský průkaz sk. B</p>
+        <div class="heading">
+          <h2>Jazykové dovednosti</h2>
+          <button class="icon-btn--languages"></button>
+        </div>
+
+        <div class="row">
+          <div class="language">
+            <button class="lang-cz"></button>
+            <div class="lang-text">
+              <h4>čeština</h4>
+              <p>rodilý mluvčí</p>
+            </div>
+          </div>
+          <div class="language">
+            <button class="lang-en"></button>
+            <div class="lang-text">
+              <h4>angličtina</h4>
+              <p>výborná znalost</p>
+            </div>
+          </div>
+          <div class="language">
+            <button class="lang-cn"></button>
+            <div class="lang-text">
+              <h4>čínština</h4>
+              <p>pokročilá znalost</p>
+            </div>
+          </div>
+          <div class="language">
+            <button class="lang-de"></button>
+            <div class="lang-text">
+              <h4>němčina</h4>
+              <p>základní znalost</p>
+            </div>
+          </div>
+          <div class="language">
+            <button class="lang-fr"></button>
+            <div class="lang-text">
+              <h4>francouzština</h4>
+              <p>základní znalost</p>
+            </div>
+          </div>
+        </div>
+        <div class="other">
+          <h2>Ostatní</h2>
+          <div class="language">
+            <button class="car"></button>
+            <div class="lang-text">
+              <p>řidičský průkaz sk. B</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!--konec sekce  DOVEDNOSTI-->
