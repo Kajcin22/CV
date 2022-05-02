@@ -309,8 +309,12 @@ header {
   padding: 5%;
   height: 25%;
   max-width: 50%;
+  word-wrap: break-word;
 }
 
+#mail {
+  word-wrap: break-word;
+}
 .other {
   padding: 1rem;
 }
