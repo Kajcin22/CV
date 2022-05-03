@@ -41,7 +41,8 @@ h3 {
 }
 
 nav {
-  position: sticky;
+  display: flex;
+  justify-content: space-between;
   top: 0%;
 }
 
@@ -300,6 +301,36 @@ header {
   background-size: contain;
   background-image: url(./img/car.png);
 }
+
+.english,
+.czech {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  margin: 1rem;
+  border: none;
+
+  background-color: transparent;
+  background-size: contain;
+  border-radius: 50%;
+
+  align-self: flex-end;
+}
+
+.english {
+  background-image: url(./img/english.png);
+}
+
+.czech {
+  background-image: url(./img/czech.png);
+}
+
+.english:hover,
+.czech:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(217, 165, 255, 0.825);
+}
+
 .center {
   text-align: center;
 }
